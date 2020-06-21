@@ -4,6 +4,7 @@ function generateHomeScreen(filteredBookmarks) {
   let listItemsString = (filteredBookmarks) ? generateBookmarksString(filteredBookmarks) : generateBookmarksString(store.bookmarks);
   $('main').html(`
   <section class="container">
+  <h1>Bookmarks</h1>
   <section class="flex-group-column">
   <form id="add-filter">
       <ul class="flex-item-buttons-top">
@@ -77,6 +78,7 @@ function generateBookmarksString(arr) {
 function generateAddScreen() {
   $('main').html(`
   <section class="container">
+  <h1>Bookmarks</h1>
   <section class="raised-card">
   <section class="lowered-card">
   <form>
