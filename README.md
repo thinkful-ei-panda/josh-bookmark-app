@@ -1,5 +1,5 @@
 # Bookmark App
-Bookmark App integrating AJAX, API and Neumorphic UI
+Bookmark App using AJAX, API and Neumorphic UI
 
 # Links
 GitHub Repo: https://github.com/thinkful-ei-panda/josh-bookmark-app
