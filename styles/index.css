@@ -262,3 +262,12 @@ ul {
     list-style-type: none;
     padding-inline-start: 0;
   }
+
+ /* misc */ 
+  .hidden{
+      display:none;
+  }
+
+  fieldset {
+    border:0px;
+}
